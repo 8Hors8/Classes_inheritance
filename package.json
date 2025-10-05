@@ -15,10 +15,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack",
     "start": "webpack serve",
-    "lint": "eslint ./src/**/*.js"
+    "lint": "eslint ./src/**/*.js",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
@@ -27,6 +28,7 @@
     "babel-loader": "^10.0.0",
     "eslint": "^9.37.0",
     "globals": "^16.4.0",
+    "jest": "^30.2.0",
     "webpack": "^5.102.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"

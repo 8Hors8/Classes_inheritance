@@ -228,8 +228,18 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _characters_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./characters.js */ "./src/characters.js");
 
-var bowman = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Bowman('Robin');
+var bowman = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Bowman("Robin");
+var swordsman = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Swordsman("Arthur");
+var magician = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Magician("Merlin");
+var daemon = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Daemon("Azazel");
+var zombie = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Zombie("Walker");
+var undead = new _characters_js__WEBPACK_IMPORTED_MODULE_0__.Undead("Lich");
 console.log(bowman);
+console.log(swordsman);
+console.log(magician);
+console.log(daemon);
+console.log(zombie);
+console.log(undead);
 })();
 
 /******/ })()
